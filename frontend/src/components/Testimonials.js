@@ -137,7 +137,7 @@ const Testimonials = () => {
             >
               {/* Quote Icon */}
               <div className="absolute top-6 left-6 text-primary/20">
-                <FiQuote size={40} />
+                <FiMessageCircle size={40} />
               </div>
 
               {/* Content */}
