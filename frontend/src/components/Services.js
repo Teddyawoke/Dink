@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FiCode, FiSmartphone, FiCloud, FiPalette, FiDatabase, FiShield } from "react-icons/fi";
+import { FiCode, FiSmartphone, FiCloud, FiEdit, FiDatabase, FiShield } from "react-icons/fi";
 
 const Services = () => {
   const [ref, inView] = useInView({
