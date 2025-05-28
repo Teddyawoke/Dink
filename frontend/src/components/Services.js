@@ -29,7 +29,7 @@ const Services = () => {
       technologies: ["AWS", "Docker", "Kubernetes", "CI/CD"],
     },
     {
-      icon: <FiPalette className="w-12 h-12" />,
+      icon: <FiEdit className="w-12 h-12" />,
       title: "UI/UX Design",
       description: "User-centered design that converts. Beautiful interfaces backed by research and testing for optimal user experience.",
       technologies: ["Figma", "Adobe XD", "Prototyping", "User Testing"],
