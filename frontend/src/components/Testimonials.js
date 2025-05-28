@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FiStar, FiChevronLeft, FiChevronRight, FiQuote } from "react-icons/fi";
+import { FiStar, FiChevronLeft, FiChevronRight, FiMessageCircle } from "react-icons/fi";
 
 const Testimonials = () => {
   const [ref, inView] = useInView({
