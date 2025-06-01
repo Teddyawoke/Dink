@@ -50,21 +50,21 @@ const Contact = () => {
     {
       icon: <FiMail className="w-6 h-6" />,
       title: "Email Us",
-      details: "hello@techforge.com",
+      details: "hello@dinkintegrated.com",
       subtitle: "We'll respond within 24 hours",
-      action: "mailto:hello@techforge.com"
+      action: "mailto:hello@dinkintegrated.com"
     },
     {
       icon: <FiPhone className="w-6 h-6" />,
       title: "Call Us",
-      details: "+1 (555) 123-4567",
+      details: "+251 980858585",
       subtitle: "Mon-Fri 9AM-6PM EST",
-      action: "tel:+15551234567"
+      action: "tel:+251951234567"
     },
     {
       icon: <FiMapPin className="w-6 h-6" />,
       title: "Visit Us",
-      details: "123 Tech Street, San Francisco, CA",
+      details: "Lebu, Addis Ababa",
       subtitle: "Schedule a meeting",
       action: "#"
     }
@@ -72,7 +72,7 @@ const Contact = () => {
 
   const projectTypes = [
     "Web Application", "Mobile App", "E-commerce", "SaaS Platform", 
-    "Enterprise Software", "API Development", "Other"
+    "Enterprise Software", "Construction", "Interior Design"
   ];
 
   const budgetRanges = [
@@ -234,7 +234,7 @@ const Contact = () => {
                         onChange={handleInputChange}
                         required
                         className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
-                        placeholder="john@example.com"
+                        placeholder="contact@dinkintegrated.com"
                       />
                     </div>
                   </div>
@@ -250,7 +250,7 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="+251 980858585"
                       />
                     </div>
                     <div>

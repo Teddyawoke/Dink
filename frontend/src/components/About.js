@@ -60,7 +60,7 @@ const About = () => {
             </h3>
             
             <p className="text-lg text-gray-600 leading-relaxed">
-              At TechForge Digital, we transform ideas into powerful digital experiences. 
+              At Dink Integrated, we transform ideas into powerful digital experiences. 
               Our team of expert developers and designers work collaboratively to create 
               scalable, secure, and innovative software solutions that drive business growth.
             </p>

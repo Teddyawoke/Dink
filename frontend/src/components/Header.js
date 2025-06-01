@@ -44,7 +44,7 @@ const Header = () => {
               <span className="text-white font-bold text-lg">T</span>
             </div>
             <span className={`text-xl font-bold ${isScrolled ? 'text-secondary' : 'text-white'}`}>
-              TechForge Digital
+              Dink Integrated 
             </span>
           </motion.div>
 

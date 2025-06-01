@@ -11,42 +11,42 @@ const Partners = () => {
   // Technology partners and platforms we work with
   const partners = [
     {
-      name: "AWS",
+      name: "Company 1",
       logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
       category: "Cloud Platform"
     },
     {
-      name: "Google Cloud",
+      name: "Company 2",
       logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg",
       category: "Cloud Platform"
     },
     {
-      name: "React",
+      name: "Company 3",
       logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       category: "Frontend Framework"
     },
     {
-      name: "Node.js",
+      name: "Company 4",
       logo: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
       category: "Backend Runtime"
     },
     {
-      name: "MongoDB",
+      name: "Company 5",
       logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
       category: "Database"
     },
     {
-      name: "Docker",
+      name: "Company 6",
       logo: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg",
       category: "Containerization"
     },
     {
-      name: "Kubernetes",
+      name: "Company 7",
       logo: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
       category: "Orchestration"
     },
     {
-      name: "PostgreSQL",
+      name: "Company 8",
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
       category: "Database"
     }

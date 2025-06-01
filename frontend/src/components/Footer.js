@@ -11,16 +11,13 @@ const Footer = () => {
     services: [
       { name: "Web Development", href: "#services" },
       { name: "Mobile Apps", href: "#services" },
-      { name: "Cloud Solutions", href: "#services" },
-      { name: "UI/UX Design", href: "#services" },
+      { name: "Construction", href: "#services" },
+      { name: "Interior Design", href: "#services" },
       { name: "Consulting", href: "#contact" }
     ],
     company: [
       { name: "About Us", href: "#about" },
       { name: "Our Team", href: "#team" },
-      { name: "Careers", href: "#team" },
-      { name: "Blog", href: "#" },
-      { name: "Case Studies", href: "#projects" }
     ],
     resources: [
       { name: "Documentation", href: "#" },
@@ -32,23 +29,20 @@ const Footer = () => {
     legal: [
       { name: "Privacy Policy", href: "#" },
       { name: "Terms of Service", href: "#" },
-      { name: "Cookie Policy", href: "#" },
-      { name: "GDPR", href: "#" },
       { name: "Disclaimer", href: "#" }
     ]
   };
 
   const socialLinks = [
-    { icon: <FiGithub size={20} />, href: "https://github.com", name: "GitHub" },
     { icon: <FiLinkedin size={20} />, href: "https://linkedin.com", name: "LinkedIn" },
     { icon: <FiTwitter size={20} />, href: "https://twitter.com", name: "Twitter" },
     { icon: <FiInstagram size={20} />, href: "https://instagram.com", name: "Instagram" }
   ];
 
   const contactInfo = [
-    { icon: <FiMail size={16} />, text: "hello@techforge.com", href: "mailto:hello@techforge.com" },
-    { icon: <FiPhone size={16} />, text: "+1 (555) 123-4567", href: "tel:+15551234567" },
-    { icon: <FiMapPin size={16} />, text: "123 Tech Street, San Francisco, CA", href: "#" }
+    { icon: <FiMail size={16} />, text: "hello@dinkintegrated.com", href: "mailto:hello@dinkintegrated.com" },
+    { icon: <FiPhone size={16} />, text: "+251980858585", href: "+251980858585" },
+    { icon: <FiMapPin size={16} />, text: "Lebu, Addis Ababa", href: "#" }
   ];
 
   return (
@@ -107,9 +101,9 @@ const Footer = () => {
                 {/* Logo */}
                 <div className="flex items-center space-x-3 mb-6">
                   <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center">
-                    <span className="text-white font-bold text-xl">T</span>
+                    <span className="text-white font-bold text-xl">D</span>
                   </div>
-                  <span className="text-2xl font-bold">TechForge Digital</span>
+                  <span className="text-2xl font-bold">Dink Integrated</span>
                 </div>
 
                 <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
@@ -151,7 +145,7 @@ const Footer = () => {
             </div>
 
             {/* Navigation Links */}
-            <div className="lg:col-span-3 grid md:grid-cols-4 gap-8">
+            <div className="lg:col-span-3 grid md:grid-cols-3 gap-8">
               {/* Services */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
@@ -199,7 +193,7 @@ const Footer = () => {
               </motion.div>
 
               {/* Resources */}
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
@@ -219,7 +213,7 @@ const Footer = () => {
                     </li>
                   ))}
                 </ul>
-              </motion.div>
+              </motion.div> */}
 
               {/* Legal */}
               <motion.div
@@ -258,7 +252,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="text-gray-400 text-sm mb-4 md:mb-0"
               >
-                © {new Date().getFullYear()} TechForge Digital. All rights reserved.
+                © {new Date().getFullYear()} Dink Integrated. All rights reserved.
               </motion.p>
               
               {/* Back to Top */}

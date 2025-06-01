@@ -66,8 +66,8 @@ const Hero = () => {
             variants={itemVariants}
             className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight"
           >
-            Build Tomorrow's
-            <span className="block gradient-text">Software Today</span>
+            Dink Company
+            <span className="block gradient-text">Slogan</span>
           </motion.h1>
 
           <motion.p

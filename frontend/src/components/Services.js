@@ -23,28 +23,23 @@ const Services = () => {
       technologies: ["React Native", "Swift", "Kotlin", "Flutter"],
     },
     {
-      icon: <FiCloud className="w-12 h-12" />,
-      title: "Cloud Solutions",
-      description: "Scalable cloud infrastructure, DevOps automation, and microservices architecture for enterprise-grade applications.",
-      technologies: ["AWS", "Docker", "Kubernetes", "CI/CD"],
-    },
-    {
       icon: <FiEdit className="w-12 h-12" />,
       title: "UI/UX Design",
       description: "User-centered design that converts. Beautiful interfaces backed by research and testing for optimal user experience.",
       technologies: ["Figma", "Adobe XD", "Prototyping", "User Testing"],
     },
     {
-      icon: <FiDatabase className="w-12 h-12" />,
-      title: "Database Solutions",
-      description: "Optimized database design and management. From SQL to NoSQL, we ensure your data is secure, fast, and scalable.",
-      technologies: ["PostgreSQL", "MongoDB", "Redis", "GraphQL"],
+      icon: <FiCloud className="w-12 h-12" />,
+      title: "Construction",
+      description: "We manage every phase of your building project — from planning and permits to foundation and finish. Quality, compliance, and durability are our hallmarks.",
+      technologies: ["AutoCAD", "Revit", "Quantity Surveying", "CI/CD"],
     },
+    
     {
-      icon: <FiShield className="w-12 h-12" />,
-      title: "Security & Testing",
-      description: "Comprehensive security audits, penetration testing, and automated testing solutions to keep your applications secure.",
-      technologies: ["Jest", "Cypress", "Security Audits", "QA"],
+      icon: <FiDatabase className="w-12 h-12" />,
+      title: "Interior Design",
+      description: "Functional and beautiful interiors tailored to your lifestyle or brand. We turn spaces into experiences.",
+      technologies: ["SketchUp", "AutoCAD", "Sustainable Material Selection"],
     },
   ];
 

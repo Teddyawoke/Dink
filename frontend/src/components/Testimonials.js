@@ -19,7 +19,7 @@ const Testimonials = () => {
       company: "EcoTech Solutions",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
       rating: 5,
-      quote: "TechForge Digital transformed our vision into a powerful e-commerce platform that exceeded all expectations. Their attention to detail and technical expertise is unmatched.",
+      quote: "Dink Integrated transformed our vision into a powerful e-commerce platform that exceeded all expectations. Their attention to detail and technical expertise is unmatched.",
       project: "E-commerce Platform",
       results: "300% increase in online sales"
     },
@@ -119,7 +119,7 @@ const Testimonials = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Don't just take our word for it. Here's what our clients say about 
-            working with TechForge Digital and the results we've achieved together.
+            working with Dink Integrated and the results we've achieved together.
           </p>
           <div className="w-24 h-1 bg-gradient-primary mx-auto mt-8"></div>
         </motion.div>
